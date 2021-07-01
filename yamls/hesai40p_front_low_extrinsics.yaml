@@ -1,0 +1,20 @@
+# proj: +proj=utm +zone=50 +ellps=WGS84
+# scale:1.11177
+# (XXX) Manually adjusted
+header:
+  stamp:
+    secs: 1422601952
+    nsecs: 288805456
+  seq: 0
+  frame_id: hesai40p_front_high
+transform:
+  translation: 
+    x: 0.0407017564702695
+    y: -1.6211353908670592
+    z: -1.1901118224002387
+  rotation: 
+    x:  0.0177865
+    y: -0.0131893
+    z: -0.00219695
+    w:   0.999752
+child_frame_id: hesai40p_front_low
